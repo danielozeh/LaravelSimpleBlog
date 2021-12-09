@@ -43,13 +43,13 @@ class CreateSettingsTable extends Migration
 
         DB::table('settings')->insert(
             array(
-                'site_title' => 'Blockchain Remark',
-                'site_description' => 'Blockchain Education',
+                'site_title' => 'Simple Blog',
+                'site_description' => 'Simple Blog',
                 'site_keywords' => '',
                 'course_default_image' => '',
                 'phone_number_1' => '',
                 'phone_number_2' => '',
-                'email' => 'info@blockchainremark.com',
+                'email' => 'hello@danielozeh.com.ng',
                 'address' => '',
                 'facebook_url' => '',
                 'youtube_url' => '',

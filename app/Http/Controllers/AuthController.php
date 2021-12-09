@@ -61,11 +61,11 @@ class AuthController extends Controller
         //$myEmail = 'hello@danielozeh.com.ng';
 
         $details = [
-            'title' => 'Verification Mail from Blockchain Remark',
+            'title' => 'Verification Mail from Simple Blog',
             'first_name' => $request->first_name,
             'last_name' => $request->last_name,
             'verification_code' => $verification_code
-            //'body' => 'Hello '. $request->full_name . '  Welcome to Blockchain Remark. Your Verification Code is ' . $verification_code . '.'
+            //'body' => 'Hello '. $request->full_name . '  Welcome to Simple Blog. Your Verification Code is ' . $verification_code . '.'
         ];
 
         Mail::to($request->email)->send(new WelcomeMail($details));
@@ -94,11 +94,11 @@ class AuthController extends Controller
             $user->save();
 
             $details = [
-                'title' => 'Verification Mail from Blockchain Remark',
+                'title' => 'Verification Mail from Simple Blog',
                 'first_name' => $user->first_name,
                 'last_name' => $user->last_name,
                 'verification_code' => $verification_code
-                //'body' => 'Hello '. $request->full_name . '  Welcome to Blockchain Remark. Your Verification Code is ' . $verification_code . '.'
+                //'body' => 'Hello '. $request->full_name . '  Welcome to Simple Blog. Your Verification Code is ' . $verification_code . '.'
             ];
 
             Mail::to($request->email)->send(new WelcomeMail($details));
