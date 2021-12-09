@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Blockchain Remark</title>
+    <title>Simple Blog</title>
 </head>
 <body>
     <h1>{{ $details['title'] }}</h1>
     <p>Hello {{ $details['first_name'] }}, <br><br>
 
-    Welcome to Blockchain Remark. It is nice to have you on board. <br>
+    Welcome to Simple Blog. It is nice to have you on board. <br>
 
     Please verify your account to proceed with us. <br><br>
 
@@ -17,6 +17,6 @@
 
     THANK YOU.
    
-    <p>Blockchain Remark Team</p>
+    <p>Simple Blog</p>
 </body>
 </html>

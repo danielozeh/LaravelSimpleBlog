@@ -2,7 +2,7 @@
     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-GB">
     <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Blockchain Remark</title>
+    <title>Simple Blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <style type="text/css">
@@ -18,7 +18,7 @@
     <table align="center" border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse: collapse; border: 1px solid #cccccc;">
     <tr>
         <td align="center" bgcolor=#282D62 style="padding: 20px 0 15px 0;">
-        <img width="400" height="80" style="display: block;" src="http://63.250.42.81:3000/logo-white.png" />
+        <img width="400" height="80" style="display: block;" src="" />
         </td>
     </tr>
     <tr>
@@ -43,7 +43,7 @@
                     <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
                         <tr> </tr>
                         <tr>
-                        <td style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 25px 0 0 0;"><p style="margin: 0;">Regards, Jacob</p></td>
+                        <td style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 24px; padding: 25px 0 0 0;"><p style="margin: 0;">Regards, Daniel</p></td>
                         </tr>
                     </table>
                     </td>
@@ -58,7 +58,7 @@
         <td bgcolor="#ee4c50" style="padding: 30px 30px;">
             <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse: collapse;">
             <tr>
-            <td style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;"><p style="margin: 0;">&reg; Blockchain Remark<br />
+            <td style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;"><p style="margin: 0;">&reg; Simple Blog<br />
             </p></td>
             <td align="right">
                 <table border="0" cellpadding="0" cellspacing="0" style="border-collapse: collapse;">
